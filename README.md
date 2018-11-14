@@ -2,22 +2,22 @@
 
 ### Test with BrowserStack
 
-**Requirements:**
+Setup:
 
-```bash
-# Install Robot Framework
-pip install -U robotframework
-# Install Robot Framework SeleniumLibrary
-pip install -U robotframework-seleniumlibrary
-# Install Local Testing binary
-# https://www.browserstack.com/local-testing#command-line
-```
+1. Sign up for a BrowserStack free trial account.
+    - https://www.browserstack.com/users/sign_up
+1. Install Robot Framework itself and libraries:
+    ```bash
+    pip install -U robotframework
+    pip install -U robotframework-seleniumlibrary
+    ```
+1. Install Local Testing binary
+    - https://www.browserstack.com/local-testing#command-line
 
-**Run:**
+Run:
 
 ```bash
 # Start Local Testing
-# See https://www.browserstack.com/local-testing
 ./BrowserStackLocal --key  <BrowserStack Key>
 # Start robot test
 robot -v Username:<Username> -v AccessKey:<AccessKey> --report /reports test-with-browserstack.robot
