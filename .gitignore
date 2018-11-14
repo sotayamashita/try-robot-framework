@@ -1,0 +1,9 @@
+# General
+.DS_Store
+
+# Ignore report files generated via Robot Framework
+*.xml
+*.html
+
+# Ignore repost pictures generated via Robot Framework
+*.png
