@@ -1,6 +1,10 @@
 ## Examples
 
-### Test with BrowserStack
+### Run test with Chrome on Docker container
+
+TODO
+
+### Run test with specifing capabilities on BrowserStack on your local machine
 
 Setup:
 
