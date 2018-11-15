@@ -1,4 +1,4 @@
-## Patterns
+## Examples
 
 ### Test with BrowserStack
 
